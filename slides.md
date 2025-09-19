@@ -63,185 +63,87 @@ title: what2
 layout: top-title
 color: gray-light
 align: c
-title: take-aways
+title: consortium
 ---
 
 :: title ::
 
-# Few take-aways
+# From the DIRAC Consortium
 
 :: content ::
 
-- we have again a site, [https://diracgrid.org](diracgrid.org), now including DIRAC and diracx docs, and the helm chart
-  - we should, from now on, stick to that as "the" reference for DIRAC(X)
-- DiracX landed
-- we (the so-called "experts") are still failing to explain what are the best practices for using DIRAC
+DiracX "is here" but there are concerns about adoption:
 
+```
+The consortium Board recognizes concerns about the complexity of deployment and operations
+of the DIRAC9/DiracX installations
+and considers necessary to explore scenarios of a "minimal" installation
+with limited external dependencies and Kubernetes-free way of running DIRAC services.
+```
 
+Elections of the Consortium Coordinator and Technical Coordinator for the next two-years term:
+- A.Tsaregorodtsev reelected as the Consortium Coordinator
+- F.Stagni reelected as the Consortium Technical Coordinator
 
 ---
 layout: top-title
 color: gray-light
 align: c
-title: functions
+title: ihep
 ---
 
 :: title ::
 
-# What is DiracX used for in LHCb?
+# IHEP, Beijing, China
 
 :: content ::
 
-- JobStateUpdate
-- ISBs
-- lhcbdiracx-web
+My very personal comments, in one sentence:
 
+> I am sincerely, positively, impressed!
 
+## Everything was perfect!
+
+**Thank you**
 
 
 ---
 layout: top-title
 color: gray-light
 align: c
-title: IT
+title: hackathon
 ---
 
 :: title ::
 
-# Standing on the shoulders
+# Next hackathon
 
 :: content ::
 
-CERN IT provides all needed services:
+21st - 22nd January 2026, CERN
 
-- MySQL 8.4 [on-demand](https://dbod-user-guide.web.cern.ch/)
-- [IaM](https://lhcb-auth.cern.ch/)
-- [Opensearch](https://opensearch.docs.cern.ch/)
-- [Openshift](https://paas.docs.cern.ch) for hosting k8 projects
-- [Object storage](https://clouddocs.web.cern.ch/object_store/index.html) compatible with S3, built upon Ceph
-- [Grafana instance](https://monit.docs.cern.ch/grafana/description/) 
-- OTEL
-
-Each of the above services come its with own monitoring (and sometimes we have look at it)
-
+https://indico.cern.ch/event/1582395/
 
 ---
-layout: top-title
+layout: top-title-two-cols
 color: gray-light
-align: c
-title: chart
+align: c-lm-lm
+title: ws
 ---
 
 :: title ::
 
-# The helm chart
+# Next workshop
 
-:: content ::
+:: left ::
 
-show lhcbdiracx chart
+14th - 16th October 2026, Prague (CESNET)
 
+https://indico.cern.ch/event/1588323/
 
----
-layout: top-title
-color: gray-light
-align: c
-title: client
----
+:: right :: 
 
-:: title ::
-
-# The client
-
-:: content ::
-
-how the client is installed and deployed on CVMFS
-
-including which env variables?
-
-
----
-layout: top-title
-color: gray-light
-align: c
-title: LHCbDiracX
----
-
-:: title ::
-
-# lhcbdiracx
-
-:: content ::
-
-
----
-layout: top-title
-color: gray-light
-align: c
-title: LHCbDiracXWeb
----
-
-:: title ::
-
-# lhcbdiracx-web
-
-:: content ::
-
-
----
-layout: top-title
-color: gray-light
-align: c
-title: monitoring
----
-
-:: title ::
-
-# monitoring
-
-:: content ::
-
-
----
-layout: top-title
-color: gray-light
-align: c
-title: OTEL
----
-
-:: title ::
-
-# infrastructure monitoring via OpenTelemetry
-
-:: content ::
-
-
----
-layout: top-title
-color: gray-light
-align: c
-title: LHCbDIRACCommon
----
-
-:: title ::
-
-# LHCbDIRACCommon
-
-:: content :: 
-
-
----
-layout: top-title
-color: gray-light
-align: c
-title: CI
----
-
-:: title ::
-
-# What we do in gitlab-CI
-
-:: content :: 
-
+![fzu](/public/images/fzu.png)
 
 ---
 layout: top-title-two-cols
@@ -256,47 +158,9 @@ title: summary
 
 :: left :: 
 
-![LHCb](/public/images/LHCb.png)
+![LHCb](/public/images/diracx-logo-square.png)
 
 
 :: right ::
 
-- We have been running (LHCb)DiracX(-Web) in production since April
-- It works!
-  - but we relied heavily on the internal knowledge
-- LHCb have always been and will keep being a Dirac(X) supporter
-
-
----
-layout: credits
-color: navy
-loop: true
-speed: 1.0
-title: credits/people
----
-
-
-<div class="grid text-size-4 grid-cols-3 w-3/4 gap-y-10 auto-rows-min ml-auto mr-auto">
-    <div class="grid-item text-center mr-0- col-span-3">
-        <strong>People</strong><br> 
-    </div>
-    <div class="grid-item text-right mr-4 col-span-1">
-        <strong>Current Developers, maintainers, supporters</strong>
-    </div>
-    <div class="grid-item col-span-2">
-        Chris Burr <i>CERN</i><br/>
-        Christophe Haen <i>CERN</i><br/>
-        Alexandre Boyer <i>CERN</i><br/>
-        Ryunosuke O'Neil (Wada) <i>CERN</i><br/>
-        Federico Stagni <i>CERN</i><br/>
-        Vladimir Romanovskiy <i>Cincinnati</i>
-    </div>
-</div>
-
-&nbsp;
-&nbsp;
-&nbsp;
-
-<div class="grid-item col-span-3 text-center mt-180px mb-auto font-size-1.5rem">
-    <strong>Questions?</strong>
-</div>
+Thank you for your participation!
